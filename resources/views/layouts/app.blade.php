@@ -104,7 +104,18 @@
                             Data Master
                         </a>
                         <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="{{ route('suppliers.index') }}">Master Supplier</a></li>
                             <li><a class="dropdown-item" href="{{ route('accounts.index') }}">Daftar Akun</a></li>
+                            <li><a class="dropdown-item" href="{{ route('periode-akuntansi.index') }}">Periode Akuntansi</a></li>
+                            <li><a class="dropdown-item" href="{{ route('units.index') }}">Unit / Departemen</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="menuMaster" data-bs-toggle="dropdown">
+                            Data Master Akademik
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="{{ route('siswas.index') }}">Siswa</a></li>
                             <li><a class="dropdown-item" href="{{ route('periode-akuntansi.index') }}">Periode Akuntansi</a></li>
                             <li><a class="dropdown-item" href="{{ route('units.index') }}">Unit / Departemen</a></li>
                         </ul>
